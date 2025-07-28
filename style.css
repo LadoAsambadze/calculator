@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainSection {
+  width: 1200px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+}
+
+.leftDiv {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightDiv {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playerOne {
+  font-size: 52px;
+  color: black;
+  font-weight: 700;
+}
+
+.playerTwo {
+  font-size: 52px;
+  color: black;
+  font-weight: 700;
+}
+
+.playerOnePoint {
+  color: black;
+  font-size: 80px;
+}
+
+.playerTwoPoint {
+  color: black;
+  font-size: 80px;
+}
+
+.currentDivOne {
+  background-color: #c7365f;
+  width: 200px;
+  height: 150px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.currentDivTwo {
+  background-color: #c7365f;
+  width: 200px;
+  height: 150px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.current {
+  font-size: 28px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.currentTwo {
+  font-size: 28px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.currentPointOne {
+  font-size: 28px;
+  color: white;
+}
+
+.currentPointTwo {
+  font-size: 28px;
+  color: white;
+}
+
+.rollButton {
+  position: absolute;
+  left: 43%;
+  font-size: 40px;
+  bottom: 100px;
+  cursor: pointer;
+}
+
+.mainImage {
+  position: absolute;
+  bottom: 200px;
+  left: 40%;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.holdButton {
+  position: absolute;
+  left: 43%;
+  font-size: 40px;
+  bottom: 40px;
+  cursor: pointer;
+}
